@@ -1,0 +1,66 @@
+/* 全局样式 */
+* {
+    font-family: 'ceym', serif;
+}
+
+body {
+    background-color: #ecf0f1;
+}
+
+/* 容器 */
+.container {
+    margin: 20px auto;
+    width: 550px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.container .title {
+    padding: 10px 0;
+}
+
+.container .title h1 {
+    font-family: '站酷小薇LOGO体', serif;
+    margin: 0;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/* 列表页面 */
+.container table {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.container th, td {
+    border: 1px solid #2c3e50;
+    padding: 5px 10px;
+}
+
+.container img {
+    width: 50px;
+    vertical-align: middle;
+}
+
+/* 添加、修改页面 */
+.container .form-control {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    padding: 5px 0;
+}
+
+.container .form-control label {
+    display: inline-block;
+    width: 80px;
+    line-height: 30px;
+}
+
+.container .form-control .form-item {
+    flex: 1;
+    padding: 5px 10px;
+}
+
+.container .btn-submit {
+    margin: 0 auto;
+}
